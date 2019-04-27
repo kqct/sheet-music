@@ -18,12 +18,12 @@ finalStrain =
   ef, ef2 (df4 c) c2 (b4-> c) c1~ (c2 
   b4-> c) c2 (b4-> c) df (c bf4. g'8) bf,1 (af2.)
   af4 af2 (g4-> af) cf2 (bf4 af) af'1~ af4 
-  af,\< (bf c\! df8) r af4\< (bf c\! df8) r ef,4\< (f c'\!) bf1 (af4) r af'-^ r
+  af,\< (bf c\! ef8) r af,4\< (bf c\! ef8) r ef,4\< (f c'\!) bf1 (af4) r af'-^ r
   \bar "|."
 }
 
 \score {
-  \transpose f c \finalStrain
+  \finalStrain
   \layout {}
-  \midi {}
+  \midi {\tempo 2=124}
 }
