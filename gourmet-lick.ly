@@ -5,6 +5,7 @@
 }
 
 melody = \relative c'' {
+  \tempo 4 = 190
   \clef treble
   \time 4/4
   \key c \minor
@@ -12,6 +13,7 @@ melody = \relative c'' {
 }
 
 bass = \relative c {
+  \tempo 4 = 190
   \clef bass
   \time 4/4
   \key c \minor
