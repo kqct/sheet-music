@@ -17,7 +17,15 @@ bassNotes = \relative c {
   \repeat unfold 2 {\repeat unfold 2 {\repeat unfold 8 {b,8}} \repeat unfold 2 {\repeat unfold 8 {e8}}}
   \repeat unfold 4 {\repeat unfold 2 {\repeat unfold 8 {b,8}} \repeat unfold 2 {\repeat unfold 8 {e8}}}
   R1*4
-  
+
+}
+
+vocalNotes = \relative c' {\time 4/4
+  \clef "treble"
+  \key e \minor
+  \tempo 4 = 158
+
+  R1*24
 }
 
 guitarNotes = \relative c' {
@@ -31,10 +39,23 @@ guitarNotes = \relative c' {
   \bar "||"
 }
 
+drh = \drummode {
+  \repeat unfold 8 {r4 sn r sn}
+}
+
+drl = \drummode {
+  \repeat unfold 8 {bd4 r4. bd8 r4}
+}
+
 \score {
   <<
+  \new Staff \with {midiInstrument = #"clarinet"} {\vocalNotes}
   \new Staff \with {midiInstrument = #"electric guitar (jazz)"} {\guitarNotes}
   \new Staff \with {midiInstrument = #"electric bass (finger)"} {\bassNotes}
+  \new DrumStaff <<
+      \new DrumVoice { \stemUp \drh }
+      \new DrumVoice { \stemDown \drl }
+    >>
   >>
 
   \layout {}
