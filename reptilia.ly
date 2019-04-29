@@ -7,7 +7,9 @@ bassNotes = \relative c, {
   \time 4/4
   \clef bass
   \key e \minor
-  c8
+  \tempo 4 = 158
+
+  b8 b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
 }
 
 \score {
