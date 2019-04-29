@@ -22,7 +22,7 @@ guitarNotes = \relative c' {
   \tempo 4 = 158
 
   R1*8
-  \repeat unfold 16 {\repeat unfold 2 {d8 d r d b4 a4} \repeat unfold 2 {gs8 gs r gs b4 c4}}
+  \repeat unfold 4 {\repeat unfold 2 {d8 d r d b4 a4} \repeat unfold 2 {gs8 gs r gs b4 d4}}
 }
 
 \score {
