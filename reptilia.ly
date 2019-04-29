@@ -26,6 +26,8 @@ vocalNotes = \relative c' {\time 4/4
   \tempo 4 = 158
 
   R1*24
+
+  r2 b4 c 
 }
 
 guitarNotes = \relative c' {
