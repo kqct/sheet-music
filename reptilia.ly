@@ -3,13 +3,15 @@
   composer = "The Strokes"
 }
 
-bassNotes = \relative c, {
+bassNotes = \relative c {
   \time 4/4
-  \clef bass
+  \clef "bass_(8)"
   \key e \minor
   \tempo 4 = 158
 
-  b8 b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
+  \repeat unfold 8 {\repeat unfold 8 {b8}}
+  \bar "||"
+  \repeat unfold 2 {\repeat unfold 8 {b,8}} \repeat unfold 2 {\repeat unfold 8 {e8}}
 }
 
 \score {
