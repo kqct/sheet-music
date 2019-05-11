@@ -39,6 +39,7 @@ leadGuitarNotes = \relative c' {
   R1*8
   \repeat unfold 4 {\repeat unfold 2 {d8 d r d b r a r} \repeat unfold 2 {gs8 gs r gs b r d r}}
   \bar "||"
+  \repeat unfold 4 {\repeat unfold 2 {d8 d r d b r a r} \repeat unfold 2 {gs8 gs r gs b r d r}}
 }
 
 rhythmGuitarNotes = \relative c' {
