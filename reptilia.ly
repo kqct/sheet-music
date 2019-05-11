@@ -41,7 +41,7 @@ leadGuitarNotes = \relative c' {
   \bar "||"
 }
 
-rhythmGuitarNotes = \relative c {
+rhythmGuitarNotes = \relative c' {
   \time 4/4
   \clef "treble_(8)"
   \key e \minor
