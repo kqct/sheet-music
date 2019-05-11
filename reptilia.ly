@@ -14,8 +14,8 @@ bassNotes = \relative c {
   \bar "||"
   \repeat unfold 4 {\repeat unfold 2 {\repeat unfold 8 {b,8}} \repeat unfold 2 {\repeat unfold 8 {e8}}}
   R1*8
-  \repeat unfold 2 {\repeat unfold 2 {\repeat unfold 8 {b,8}} \repeat unfold 2 {\repeat unfold 8 {e8}}}
-  \repeat unfold 4 {\repeat unfold 2 {\repeat unfold 8 {b,8}} \repeat unfold 2 {\repeat unfold 8 {e8}}}
+  \repeat unfold 2 {\repeat unfold 2 {\repeat unfold 8 {b8}} \repeat unfold 2 {\repeat unfold 8 {e8}}}
+  \repeat unfold 4 {\repeat unfold 2 {\repeat unfold 8 {b8}} \repeat unfold 2 {\repeat unfold 8 {e8}}}
   R1*4
 
 }
