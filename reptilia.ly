@@ -30,7 +30,7 @@ vocalNotes = \relative c' {\time 4/4
   r2 b4 c 
 }
 
-guitarNotes = \relative c' {
+leadGuitarNotes = \relative c' {
   \time 4/4
   \clef "treble_(8)"
   \key e \minor
@@ -38,6 +38,17 @@ guitarNotes = \relative c' {
 
   R1*8
   \repeat unfold 4 {\repeat unfold 2 {d8 d r d b r a r} \repeat unfold 2 {gs8 gs r gs b r d r}}
+  \bar "||"
+}
+
+rhythmGuitarNotes = \relative c' {
+  \time 4/4
+  \clef "treble_(8)"
+  \key e \minor
+  \tempo 4 = 158
+
+  R1*8
+  \repeat unfold 4 {\repeat unfold 2 {{fs8 d} {gs8 d}} \repeat unfold 2 {gs8 gs r gs b r d r}}
   \bar "||"
 }
 
@@ -52,7 +63,8 @@ drl = \drummode {
 \score {
   <<
   \new Staff \with {midiInstrument = #"clarinet"} {\vocalNotes}
-  \new Staff \with {midiInstrument = #"electric guitar (jazz)"} {\guitarNotes}
+  \new Staff \with {midiInstrument = #"electric guitar (jazz)"} {\leadGuitarNotes}
+  \new Staff \with {midiInstrument = #"electric guitar (jazz)"} {\rhythmGuitarNotes}
   \new Staff \with {midiInstrument = #"electric bass (finger)"} {\bassNotes}
   \new DrumStaff <<
       \new DrumVoice { \stemUp \drh }
