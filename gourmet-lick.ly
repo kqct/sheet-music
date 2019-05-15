@@ -23,10 +23,10 @@ bass = \relative c, {
   \time 4/4
   \key c \minor
   f8 f' c f g, g' bf, d af af' af, af' g r g, r 
-  c-. <g' c ef>-. g,-. <g' c ef>-. c,-. <g' c ef>-. g,-. <g' c ef>-.
-  c,-. <g' c ef>-. g,-. <g' c ef>-. c,-. <g' c ef>-. g,-. <g' c ef>-.
-  f-. <f af c>-. c-. <f af c>-. f-. <f af c>-. f,-. <f' af c>-.
-  c-. <g' c ef>-. g,-. <g' c ef>-. c,-. <g' c ef>-. g,-. <g' c ef>-.
+  c-. <g' c ef>-. g,-. q-. c-. q-. g-. q-.
+  c-. q-. g-. q-. c-. q-. g-. q-.
+  f-. <f af c>-. c-. q-. f-. q-. f,-. q-.
+  c-. <g' c ef>-. g,-. q-. c,-. q-. g,-. q-.
   c,-. <g' c ef>-. g,-. <g' c ef>-. c,-. <g' c ef>-. g,-. <g' c ef>-.
   c,-. <g' c ef>-. g,-. <g' c ef>-. c,-. <g' c ef>-. g,-. <g' c ef>-.
   <f af c ef>4 r <g bf d f> r8 <g b c e>~ <g b c e>2 <c,, c'>
