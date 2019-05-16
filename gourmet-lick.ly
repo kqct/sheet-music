@@ -10,7 +10,7 @@ melody = \relative c'' {
   \time 4/4
   \key c \minor
   <ef g>8 \ff r <d f>-. <c ef>-. <bf d>-. <f bf>-. <d g> r
-  <af' c>-. <bf d>-. <c ef>-. <d f>-. <b d> r r4
+  <af' c>-. <bf d>-. <c ef>-. <d f>-. <b d> r <g b> r
   c'4 r g r ef d c r c d ef c bf c g2
   c'4 r g r ef d c r
   c8 d ef f d4 bf8 c8~ c2 c
